@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    border-radius: 40px;
+background-color: rgb(52, 60, 86);
+}
+.header{
+    padding-top: 46px;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.item{
+    width: 200px; 
+    border-radius: 30px;
+background-color: #ff0101;
+text-align: center;
+padding: 14px 0;
+}
+.link{
+    color: #ffffff;
+font-family: "Inter";
+font-size: 12px;
+font-weight: 700;
+line-height: 15px;
+text-decoration: none;
+}
+.hero{
+    padding-top: 68px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.gul{
+    display: flex;
+    width: 264px;
+    height: 118px;
+    padding: 44 81 59 82;
+    justify-content: center;
+    border-radius: 40px;
+background-color: rgb(0, 0, 0);
+padding-top: 50px;
+margin: 55px auto;
+color: #ffffff;
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+}
+.ota{
+    display: flex;
+    justify-items: center;
+    border-radius: 50px;
+gap: 80px;
+width: 1200px;
+margin: 100px auto;
+padding: 80px;
+justify-content: space-evenly;
+}
+.bola{
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 200px;
+    border-radius: 50px;
+    background-color:red;
+    padding: 60px 30px;
+}
+.nevara{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 109px;
+    padding: 45 50 46 50px;
+    background: #61ff00;
+    align-items: center;
+color: rgb(0, 0, 0);
+font-size: 12px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: center;
+
+}
